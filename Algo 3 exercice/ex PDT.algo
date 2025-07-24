@@ -1,0 +1,28 @@
+Eplucher x pommes de terre en allant
+ les chercher à la cave avec un panier
+ ne pouvant contenir que 3 pommes de
+ terre à la fois.
+ Ecrire l'algorithme permettant de
+ réaliser ces actions ? Combien d'aller
+retour est nécessaire pour éplucher
+ toutes les pommes de terre ?
+
+
+
+Algorithme EplucherPommesDeTerre
+Variables
+    nbPatates : entier
+    panier : entier
+    allerRetour : entier    
+
+Début
+    Ecrire "Entrez le nombre de pommes de terre à éplucher :"       
+    Lire nbPatates
+    contenancePanier <- 3
+    allerRetour <- 0
+    Tant que nbPatates > 0 faire
+        nbPatates <- nbPatates - contenancePanier
+    FinttanQue
+     AFFICHER "nb aller retour : "
+      AFFICHER allerRetour
+Fin

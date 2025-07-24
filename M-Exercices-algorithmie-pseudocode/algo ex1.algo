@@ -1,0 +1,41 @@
+
+
+Fonction lireEntier()
+    Lire N
+    Retourner N
+
+Variables
+N : Entier
+Somme <- 0 : Entier
+
+Début
+    Ecrire "Entrez un nombre entier :"
+    N ← lireEntier()
+
+    TANTQUE que N > 0
+        Somme ← Somme + N
+        N <- N-1
+    Fin TANTQUE
+    Ecrire "Le résultat avec tant que est : ", Somme
+Fin
+
+Début
+    Ecrire "Entrez un nombre entier :"
+    N ← lireEntier()
+
+    REPETER
+        Somme ← Somme + N
+        N <- N-1
+    JUSQUA ce que N <= 0
+    Ecrire "Le résultat avec repeter est : ", Somme
+Fin
+
+Début
+    Ecrire "Entrez un nombre entier :"
+    N ← lireEntier()
+
+  POUR i de 1 à N FAIRE
+        Somme ← Somme + i
+    Ecrire "Le résultat avec repeter est : ", Somme
+  Fin Pour 
+Fin
